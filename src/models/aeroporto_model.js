@@ -8,7 +8,7 @@ const aeroportoSchema = new Schema({
         required: true
     },
     endereco: {
-        type: String,
+        type: Schema.Types.Mixed,
         required: true
     }
 });
